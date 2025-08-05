@@ -6,13 +6,13 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyD2KrDvwuVa0aQdDOknPhmsq8ILCO3Moyg",
-      authDomain: "eccomerecapp.firebaseapp.com",
-      projectId: "eccomerecapp",
-      storageBucket: "eccomerecapp.appspot.com",
-      messagingSenderId: "954187285020",
-      appId: "1:954187285020:web:fe1c23e60057dab7eb55d9",
-      measurementId: "G-7RGPX5MW17",
+      apiKey: "yours",
+      authDomain: "yours",
+      projectId: "yours",
+      storageBucket: "yours",
+      messagingSenderId: "yours",
+      appId: "yours",
+      measurementId: "yours",
     ),
   );
   runApp(const MyApp());
@@ -31,3 +31,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
